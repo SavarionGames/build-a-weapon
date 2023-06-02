@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Germania+One&family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Build-a-Weapon</h1>
+    <div class="break"></div>
+    <div id="main-container">
+      <div class="section half">
+        <div class="section-header">Weapon Stats</div>
+        <div class="break"></div>
+        <div class="input-item">
+          <div class="input" id="weapon-name" contenteditable="true"></div>
+          <div class="input-label" data-label="Name"></div>
+        </div>
+        <div class="break margin-top"></div>
+        <div class="input-item small">
+          <div class="input" id="damage" contenteditable="true"></div>
+          <div class="input-label" data-label="Damage"></div>
+        </div>
+        <div class="input-item small">
+          <div class="input" id="dex" contenteditable="true"></div>
+          <div class="input-label" data-label="Dex"></div>
+        </div>
+        <div class="input-item small">
+          <div class="input" id="range" contenteditable="true"></div>
+          <div class="input-label" data-label="Range"></div>
+        </div>
+        <div class="break"></div>
+        <div class="input-item small">
+          <div class="input" id="purchase-cost" contenteditable="true""></div>
+          <div class="input-label" data-label="Purchase Cost"></div>
+        </div>
+        <div class="input-item small">
+          <div class="input" id="weight" contenteditable="true"></div>
+          <div class="input-label" data-label="Weight"></div>
+        </div>
+        <div class="input-item small empty">
+          <div class="input"></div>
+          <div class="input-label"></div>
+        </div>
+      </div>
+      <div class="spacer vert"></div>
+      <div class="section half">
+        <div class="section-header">Weapon Styles</div>
+        <div class="break"></div>
+        <div class="style-option active" id="one-handed-melee" data-type="1 Handed Melee"></div>
+        <div class="style-option" id="two-handed-melee" data-type="2 Handed Melee"></div>
+        <div class="style-option" id="ranged" data-type="Ranged"></div>
+        <div class="break margin-top"></div>
+        <div class="style-option small" data-type="Agile"></div>
+        <div class="style-option small" data-type="Blunt"></div>
+        <div class="style-option small" data-type="Charge"></div>
+        <div class="style-option small" data-type="Concealed"></div>
+        <div class="style-option small" data-type="Deflect"></div>
+        <div class="style-option small" data-type="DS"></div>
+        <div class="style-option small" data-type="Parry"></div>
+        <div class="style-option small" data-type="Set"></div>
+        <div class="style-option small" data-type="Versatile"></div>
+      </div>
+      <div class="break"></div>
+      <div class="section full" id="infusion-stones">
+        <div class="section-header">Infusion Stones</div>
+        <div class="break"></div>
+        <div class="style-option" data-type="Blue"></div>
+        <div class="style-option" data-type="Green"></div>
+        <div class="style-option" data-type="Red"></div>
+        <div class="style-option" data-type="Purple"></div>
+        <div class="style-option" data-type="Orange"></div>
+      </div>
+    <div id="submit-btn" class="btn">Add Weapon</div>
+    </div>
+    
+    <script src="build-a-weapon.js"></script>
+  </body>
+</html>

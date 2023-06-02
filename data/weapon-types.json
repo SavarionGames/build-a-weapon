@@ -1,0 +1,38 @@
+[
+  {
+    "Weapon Type" : "1 Handed Melee",
+    "Style" : [
+      "Agile",
+      "Blunt",
+      "Charge",
+      "Concealed",
+      "Deflect",
+      "DS",
+      "Parry",
+      "Set",
+      "Versatile"
+    ]
+  },
+  {
+    "Weapon Type" : "2 Handed Melee",
+    "Style" : [
+      "Agile",
+      "Blunt",
+      "Charge",
+      "Deflect",
+      "Parry",
+      "Set"
+    ]
+  },
+  {
+    "Weapon Type" : "Ranged",
+    "Style" : [
+      "Ammo",
+      "Blunt",
+      "Concealed",
+      "Deflect",
+      "DS",
+      "Thrown"
+    ]
+  }
+]

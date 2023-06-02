@@ -1,0 +1,173 @@
+body {
+  background: #181c24;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+}
+
+.break {
+  width: 100%;
+  height: 0;
+}
+.break.margin-top {
+  margin-top: 20px;
+}
+
+.spacer.vert {
+  width: 0px;
+  max-height: 1000px;
+  margin: 0 10px;
+  border-left: 1px solid white;
+  background: red;
+}
+
+h1 {
+  font-family: "Germania One";
+  margin: 0;
+  color: #939eb9;
+}
+
+#main-container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  margin-top: 10px;
+  align-self: flex-start;
+  width: 60%;
+  min-height: 50px;
+  background: #353b4a;
+  border-radius: 10px;
+  padding: 10px 20px;
+  position: relative;
+  filter: drop-shadow(0 0 0.75rem black);
+}
+
+.section {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+.section.half {
+  width: 48%;
+}
+.section.full {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.section .section-header {
+  font-family: "Germania One";
+  font-size: 1.5rem;
+  color: #181c24;
+  margin-bottom: 10px;
+}
+
+.input-item {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 5px;
+}
+.input-item:not(.small) {
+  width: 100%;
+}
+.input-item.small {
+  margin-top: 5px;
+  width: 30%;
+}
+.input-item.empty .input {
+  background: none;
+  pointer-events: none;
+}
+
+.input {
+  align-self: flex-start;
+  background: #939eb9;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  position: relative;
+  height: 30px;
+  outline: none;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.input:not(.small) {
+  width: 100%;
+}
+.input:focus {
+  background: white;
+}
+
+.input-label {
+  margin-top: 2px;
+  align-self: flex-start;
+  width: 100%;
+  content: attr(data-label);
+  color: white;
+  font-size: 0.75rem;
+}
+.input-label::before {
+  content: attr(data-label);
+}
+
+.style-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 25%;
+  padding: 0px 10px;
+  border: 1px solid white;
+  font-size: 0.7rem;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.style-option::before {
+  content: attr(data-type);
+}
+.style-option.active {
+  border-color: dodgerblue;
+  background: dodgerblue;
+  color: #181c24;
+}
+.style-option:hover {
+  border-color: dodgerblue;
+}
+.style-option.small {
+  margin-top: 10px;
+}
+
+#infusion-stones {
+  display: flex;
+  justify-content: space-between;
+}
+#infusion-stones .style-option {
+  width: 14%;
+}
+
+.btn {
+  position: absolute;
+  margin-top: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: -50px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.btn:hover {
+  border-color: dodgerblue;
+  background: dodgerblue;
+}
+.btn:active {
+  padding: 3.3px 10px;
+}/*# sourceMappingURL=styles.css.map */

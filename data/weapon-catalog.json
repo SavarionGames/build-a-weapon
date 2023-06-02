@@ -1,0 +1,55 @@
+[
+  {
+    "Name" : "Broad Sword",
+    "shortName" : "broadSword",
+    "Style" : [
+      "Charge",
+      "Versatile"
+    ],
+    "Damage" : "12",
+    "Dex" : "2",
+    "Range" : "2",
+    "Purchase Cost" : "14",
+    "Material Cost" : "",
+    "Weight" : "",
+    "Infusion Stone" : [
+      "Red"
+    ]
+  },
+  {
+    "Name" : "Long Sword",
+    "shortName" : "longSword",
+    "Style" : [
+      "DS"
+    ],
+    "Damage" : "9",
+    "Dex" : "2",
+    "Range" : "1",
+    "Purchase Cost" : "12",
+    "Material Cost" : "",
+    "Weight" : "",
+    "Infusion Stone" : [
+      "Purple", 
+      "Orange"
+    ]
+  },
+  {
+    "Name" : "Short Sword",
+    "shortName" : "shortSword", 
+    "Style" : [
+      "Agile",
+      "Concealed",
+      "DS"
+    ],
+    "Damage" : "7",
+    "Dex" : "1",
+    "Range" : "1",
+    "Purchase Cost" : "6",
+    "Material Cost" : "",
+    "Weight" : "",
+    "Infusion Stone" : [
+      "Blue",
+      "Purple"
+    ]
+  }
+]
