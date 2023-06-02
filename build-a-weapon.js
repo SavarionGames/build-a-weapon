@@ -1,1 +1,4 @@
-console.log('hello');
+//SET WEAPON STYLE
+function setWeaponStyle(style) {
+  
+}
